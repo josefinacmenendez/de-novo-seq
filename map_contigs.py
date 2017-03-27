@@ -89,8 +89,6 @@ def get_sequence(csv_file, fasta_file):
 	#write new csv file with sequences
 	write_csv(new_name , table)
 
-
-def main():
+if __name__ == '__main__':
 	#get_sequence(csv_file , fasta_1)
 	get_tr_name(csv_file , fasta_1)
-main()
